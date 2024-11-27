@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convertidor de Unidades</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+      color: #f8f9fa;
+    }
+    .card-custom {
+      background-color: #142850;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .btn-custom {
+      background-color: #007bff;
+      border: none;
+    }
+    .btn-custom:hover {
+      background-color: #0056b3;
+    }
+    .titulo-header {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin: 0;
+      color: white;
+    }
+    .footer-custom {
+      background-color: #142850;
+      color: #f8f9fa;
+      padding: 1rem 0;
+      text-align: center;
+      margin-top: 2rem;
+      border-top: 2px solid #007bff;
+    }
+    .nav-header {
+      background-color: #1e3c72;
+      padding: 1rem 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    .nav-header h1 {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header class="nav-header text-center">
+    <h1 class="titulo-header">Convertidor de Unidades</h1>
+  </header>
+
+  <div id="app" class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <convertidor-unidades></convertidor-unidades>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-custom">
+    <p>Práctica desarrollada por <strong>Daniluxx y Alan</strong>. Todos los derechos reservados &copy; 2024.</p>
+  </footer>
+
+  <script src="medidas 1.js"></script>
+</body>
+</html>
